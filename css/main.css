@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-image: url(../imgs/header_top.jpg);
+    background-size: cover;
+}
+.nav{
+    height: 80px;
+    background-color: #5b7894;
+    color: #fff;
+    line-height: 80px;
+}
+.logo{
+    font-size: 35px;
+    width: 15%;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    background-image: url(../imgs/logo.png);
+    margin-top:18px;
+}
+.nav ul{
+    width: 65%;
+    display: inline-block;
+    flot: left;
+    margin-left: 120px;
+}
+.nav ul li {
+    float: left;
+    width: 132px;
+    text-align: center;
+}
+.nav ul li:hover{
+    background-color: #fd7e14;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+marquee{
+    font-size: 30px;
+    color: #6f42c1;
+    margin-top: 30px;
+}
+.top{
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 300px;
+    text-shadow: 0px 0px 15px #d2e4e4,0px 0px 15px #909e6c,0px 0px 15px #00FFFF;
+    color:#fff;
+}
+.cl{
+    background-image: url(../imgs/cl-top.jpg);
+    background-size: cover;
+}
+.sv{
+    background-image: url(../imgs/sv_top.jpg);
+    background-size:contain; 
+}
+.gp{
+    background-image:url(../imgs/sv/bg_1.jpg);
+    height: 300px;
+    line-height: 30px;
+    text-indent: 1cm;
+    color:#fff;
+    padding: 10px 0;
+    width: 700px;
+    float: left;
+}
+.sj{
+    background-image:url(../imgs/sv/bg_3.jpg);
+    height: 300px;
+    line-height: 30px;
+    text-indent: 1cm;
+    color:#fff;
+    padding: 10px 0; 
+    float: left;
+    width: 700px;
+}
+.jt{
+    background-image:url(../imgs/sv/bg_4.jpg);
+    height: 300px;
+    line-height: 30px;
+    text-indent: 1cm;
+    color:#fff;
+    padding: 10px 0; 
+    float: left;
+    width: 700px;
+}
+.con{
+    margin-top:30px;
+    padding: 30px;
+}
+.con img{
+    float: left;
+}
+.cg{
+    background-image:url(../imgs/sv/bg_2.jpg);
+    height: 300px;
+    line-height: 30px;
+    text-indent: 1cm;
+    color:#fff;
+    padding: 10px 0;
+    width: 700px;
+    float: left;
+}
+.bottom{
+    background-image: url(../imgs/footer-bg.png);
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+}
+.zhanpin{
+    height: 820px;
+    margin-top: 20px;
+}
+.zhanpin ul li{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background-color: #82adbe;
+    float: left;
+    margin-left:10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.zhanpin ul li:first-child{
+    margin-left:0px;
+}
+.zhanpin ul li img{
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+}
+.zhanpin ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.zhanpin .price{
+    font-size:30px;
+    margin-top:15px;
+}
+.zhanpin .gwc{
+    width: 100px;
+    height: 30px;
+    background-color: #dc3545;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #fff;
+    margin: 10px auto;
+}
+
+.p{
+    margin: 20px 0;
+}
+.p img{
+    float: left;
+    width: 400px;
+}
+.p p{
+    margin-left: 15px;
+    display: block;
+    width: 500px;
+    float: left;
+    line-height: 30px;
+    text-indent: 1cm;
+}
+.brand li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.brand li img{
+    width: 80px;
+}
+.news{
+    height: 1200px;
+    margin: 20px 0;
+}
+.news ul li{
+    list-style: none;
+    margin-top: 25px;
+}
+.news ul li img{
+    border-radius: 10px;
+    float: left;
+}
+.news .con{
+    width: 600px;
+    float: right;
+    margin-left: 20px;
+}
+
+.news .con p{
+    line-height: 30px;
+    text-indent: 1cm;
+    margin-top: 20px;
+}
+
+.news .con a{
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    border: 3px solid #eee;
+    height: 30px;
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+}
+.title{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.lastnews{
+    background: url(../imgs/banner-bg-1.jpg);
+    height: 520px;
+    padding-top:20px;
+}
+.lastnews ul li{
+    float: left;
+    list-style: none;
+    display: block;
+    width: 310px;
+    margin-left: 10px;
+    height: 500px;
+    overflow: hidden;
+}
+.lastnews ul li img{
+    border-radius: 10px;
+}
+
+.lastnews ul li p{
+    color: #a69696;
+}
+.contact{
+    background:url(../imgs/in.jpg);
+    height: 520px;
+    padding-top:40px;
+    background-size:contain;
+}
+form{
+    margin: 30px auto;
+    width: 800px;
+    height: 400px;
+}
+input{
+    height: 30px;
+    padding-left:10px;
+}
+textarea{
+    width: 738px;
+    height: 300px;
+    padding-left: 10px;
+    margin-top: 40px;
+    padding-left:10px;
+}
+button{
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.collection{
+    background-color: #eee;
+    magin:20px 0;
+}
+.collection ul li {
+    list-style: none;
+    display: block;
+    width: 340px;
+    height: 340px;
+    background-color: #d1c8b861;
+    float: left;
+    margin-left:10px;
+    margin-top:10px;
+}
+.collection ul li img{
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    margin: 0 auto;
+    display: block;
+    margin-top:20px;
+}
+.collection ul li p{
+    display: block;
+    width: 240px;
+    height: 30px;
+    background-color: #eee;
+    margin: 0 auto;
+    margin-top:20px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.zl{
+    background-image: url(../imgs/zl_top.jpg);
+}
+.exhibition ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.exhibition ul li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.exhibition .contt{
+    background-color: #30141461;
+    height: 60px;
+    position: relative;
+    top:-64px;
+    line-height: 60px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+}
+.ab{
+    background-image: url(../imgs/ab_top.jpg);
+}
+.dsj{
+    background-image: url(../imgs/ab/jpg50_02.jpg);
+    overflow: hidden;
+    font-size:20px;
+}
+.in{
+    background-image: url(../imgs/in_top.jpg);
+    background-size:cover;
+    height: 600px;
+    margin-bottom: 40px;
+}
